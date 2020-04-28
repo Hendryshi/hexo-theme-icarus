@@ -5,6 +5,25 @@
     .is-1-column .container, .is-2-column .container
         max-width: $desktop - 2 * $gap
         width: $desktop - 2 * $gap
+    
+    //reduce the left and right size : from 25% to 20%
+    .column.is-3-widescreen {
+        flex: none;
+        width: 20%;
+    }
+    .column.is-6-widescreen {
+        width: 60%;
+    }
+    .column.is-4-widescreen {
+        flex: none;
+        width: 20%;
+    }
+    .column.is-8-widescreen {
+        width: 80%;
+    }
+    .column.is-9-widescreen {
+        width: 80%;
+    }
 
 +fullhd()
     .is-2-column .container
