@@ -45,6 +45,7 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
+            <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
         </footer>;
     }
 }
